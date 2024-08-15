@@ -1,0 +1,6 @@
+service : {
+  checkBal: () -> (float64);
+  compound: () -> () oneway;
+  topUp: (float64) -> () oneway;
+  withDraw: (float64) -> () oneway;
+}
